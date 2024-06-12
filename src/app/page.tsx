@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button'
+import { Hero } from '@/components/hero/Hero'
 
 export default function Home() {
-  return <Button>Next.js Shadcn/ui</Button>
+  return <Hero />
 }

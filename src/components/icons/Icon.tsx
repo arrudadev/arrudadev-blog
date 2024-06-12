@@ -8,5 +8,5 @@ type IconProps = {
 
 export const Icon = ({ icon, className }: IconProps) => {
   const IconComponent = RadixIcons[icon]
-  return <IconComponent className={cn('h-5 w-5', className)} />
+  return <IconComponent className={cn('w-6 h-6', className)} />
 }

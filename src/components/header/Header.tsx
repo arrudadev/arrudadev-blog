@@ -7,8 +7,8 @@ import { Icon } from '../icons/Icon'
 
 export const Header = () => {
   return (
-    <header className="flex items-center h-16 md:h-18 z-50 sticky top-0 bg-background border-b">
-      <div className="relative container flex items-center justify-between w-full">
+    <header className="flex items-center h-16 md:h-18 z-50 sticky top-0 border-b">
+      <div className="relative container flex items-center justify-between max-w-screen-md">
         <div className="hidden md:flex items-center gap-4">
           <Brand />
           <NavigationMenuDesktop />
@@ -23,7 +23,7 @@ export const Header = () => {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <Link href="#" target="_blank">
+          <Link href="https://github.com/arrudadev" target="_blank">
             <Icon icon="GitHubLogoIcon" />
           </Link>
 
