@@ -8,10 +8,10 @@ import { Icon } from '../icons/Icon'
 
 type MenuLinkProps = MenuItem
 
-export const MenuLink = ({ icon, label }: MenuLinkProps) => {
+export const MenuLink = ({ href, icon, label }: MenuLinkProps) => {
   return (
     <Link
-      href="/"
+      href={href}
       className={cn('flex items-center gap-2', navigationMenuTriggerStyle())}
     >
       <Icon icon={icon} className="h-4 w-4" />

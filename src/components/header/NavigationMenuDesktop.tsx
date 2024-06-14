@@ -14,7 +14,7 @@ export const NavigationMenuDesktop = () => {
       <NavigationMenuList>
         {menuItems.map((item) => (
           <NavigationMenuItem key={item.label}>
-            <MenuLink icon={item.icon} label={item.label} />
+            <MenuLink href={item.href} icon={item.icon} label={item.label} />
           </NavigationMenuItem>
         ))}
       </NavigationMenuList>

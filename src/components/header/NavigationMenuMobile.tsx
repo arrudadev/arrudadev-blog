@@ -23,7 +23,12 @@ export const NavigationMenuMobile = () => {
 
         <nav className="flex flex-col gap-2">
           {menuItems.map((item) => (
-            <MenuLink key={item.label} icon={item.icon} label={item.label} />
+            <MenuLink
+              key={item.label}
+              href={item.href}
+              icon={item.icon}
+              label={item.label}
+            />
           ))}
         </nav>
       </SheetContent>
