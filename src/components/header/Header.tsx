@@ -7,8 +7,8 @@ import { Icon } from '../icons/Icon'
 
 export const Header = () => {
   return (
-    <header className="flex items-center h-16 md:h-18 z-50 sticky top-0 border-b">
-      <div className="relative container flex items-center justify-between max-w-screen-md">
+    <header className="flex items-center h-16 md:h-18 z-50 sticky top-0 border-b bg-background">
+      <div className="relative container flex items-center justify-between max-w-screen-lg">
         <div className="hidden md:flex items-center gap-4">
           <Brand />
           <NavigationMenuDesktop />

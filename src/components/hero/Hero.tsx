@@ -3,7 +3,7 @@ import { Icon } from '../icons/Icon'
 
 export const Hero = () => {
   return (
-    <section className="max-w-screen-md py-10 container flex items-start  flex-col">
+    <section className="max-w-screen-lg py-10 container flex items-start  flex-col">
       <h1 className="text-lg md:text-2xl font-bold text-zinc-900 dark:text-white sm:text-3xl mb-0">
         Alexandre Arruda
       </h1>

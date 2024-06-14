@@ -1,5 +1,12 @@
+import { Articles } from '@/components/articles/Articles'
 import { Hero } from '@/components/hero/Hero'
 
 export default function Home() {
-  return <Hero />
+  return (
+    <>
+      <Hero />
+
+      <Articles />
+    </>
+  )
 }
