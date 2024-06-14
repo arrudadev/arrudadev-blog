@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import { Header } from '@/components/header/Header'
 import './globals.css'
+import { Footer } from '@/components/footer/Footer'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
@@ -25,7 +26,8 @@ export default function RootLayout({
         )}
       >
         <Header />
-        {children}
+        <main className="h-full h-main">{children}</main>
+        <Footer />
       </body>
     </html>
   )

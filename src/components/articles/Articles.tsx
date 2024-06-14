@@ -77,7 +77,7 @@ export const Articles = () => {
             </Link>
           </li>
 
-          <li className="w-full gap-2 border-b border-t py-6">
+          {/* <li className="w-full gap-2 border-b border-t py-6">
             <Link href="/" className="flex flex-col justify-center gap-2">
               <div className="flex items-center justify-between">
                 <span className="font-medium text-muted-foreground">
@@ -210,7 +210,7 @@ export const Articles = () => {
                 ever since the 1500s
               </p>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
